@@ -24,7 +24,7 @@ export default function Hero() {
               </span>
             </div>
 
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-[#0B1220] tracking-tight leading-[1.12] mb-5 sm:mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#0B1220] tracking-tight leading-[1.12] mb-5 sm:mb-6">
               Protect What Matters Most with{" "}
               <span className="text-[#2563EB]">
                 Smarter Security.
@@ -55,7 +55,7 @@ export default function Hero() {
             <div className="pt-6 border-t border-[#E2E8F0] w-full">
               <div className="grid grid-cols-3 sm:grid-cols-3 gap-3">
                 {trustHighlights.map((point) => (
-                  <div key={point} className="flex items-center gap-2 text-[9px] sm:text-sm text-[#334155]">
+                  <div key={point} className="flex items-center gap-2 text-[11px] sm:text-sm text-[#334155]">
                     <CheckCircle2 className="w-4 h-4 text-[#2563EB] shrink-0" />
                     <span className="font-semibold">{point}</span>
                   </div>
