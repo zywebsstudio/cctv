@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@source "../components";
+@source "../app";
+@source "../lib";
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #475569;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #FFFFFF;
+  color: #475569;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+  color: #475569;
+}
+
+.swiper-pagination-bullet {
+  background: #CBD5E1 !important;
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #2563EB !important;
+  width: 24px !important;
+  border-radius: 9999px !important;
+}
